@@ -1,0 +1,19 @@
+name: abdullah_portfolio
+description: A responsive, editable motion design portfolio.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2
+  shared_preferences: ^2.5.3
+  supabase_flutter: ^2.18.3
+  url_launcher: ^6.3.1
+  web: ^1.1.1
+
+flutter:
+  uses-material-design: true
